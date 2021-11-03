@@ -20,7 +20,7 @@ def getImageMetaData(imgName):
         print("Failed To Obtain The Metadata")
 
 def executeProgram():
-    imageFilePath = input("Enter the file path of the image : ")
+    imageFilePath = input("Enter the full path of the image : ")
     getImageMetaData(imageFilePath)
 
 executeProgram()
